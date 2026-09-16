@@ -1,0 +1,117 @@
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background-color: #f6f4f1;
+    color: #2f2f2f;
+    line-height: 1.6;
+}
+
+
+/* Header */
+
+header {
+    background-color: #ded8d2;
+    padding: 2rem 1rem;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 2.5rem;
+    color: #3d3a37;
+}
+
+
+/* Navigation */
+
+nav {
+    display: flex;
+    justify-content: center;
+    gap: 1.5rem;
+    margin-top: 1rem;
+    flex-wrap: wrap;
+}
+
+nav a {
+    text-decoration: none;
+    color: #3d3a37;
+}
+
+nav a:hover {
+    color: #8a7f74;
+}
+
+
+/* Main */
+
+main {
+    max-width: 1000px;
+    margin: auto;
+    padding: 3rem 1rem;
+}
+
+
+/* Sektioner */
+
+section {
+    background-color: #ffffff;
+    padding: 2rem;
+    margin-bottom: 2rem;
+    border-radius: 12px;
+    box-shadow: 0 2px 8px rgba(0, 0, 0, 0.08);
+}
+
+section h2 {
+    margin-top: 0;
+    color: #6f6258;
+}
+
+
+/* Lister */
+
+ul {
+    padding-left: 1.5rem;
+}
+
+
+/* Footer */
+
+footer {
+    background-color: #3d3a37;
+    color: white;
+    text-align: center;
+    padding: 2rem 1rem;
+}
+
+@media screen and (max-width: 600px) {}
+
+    nav {
+        flex-direction: column;
+        gap: 0.5rem;
+    }
+
+    section {
+        padding: 1.5rem;
+    }
+
+    header h1 {
+        font-size: 2rem;
+    }
+
+#om-mig {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    gap: 2rem;
+}
+
+.om-mig-tekst {
+    flex: 1;
+}
+
+.profilbillede {
+    width: 180px;
+    height: 180px;
+    object-fit: cover;
+    border-radius: 50%;
+}
