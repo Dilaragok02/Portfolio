@@ -115,3 +115,38 @@ footer {
     object-fit: cover;
     border-radius: 50%;
 }
+
+
+#galleri {
+    text-align: center;
+    margin-top: 40px;
+}
+
+.galleri {
+    display: flex;
+    justify-content: center;
+    gap: 25px;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.galleri-kort {
+    text-align: center;
+}
+
+.galleri-kort img {
+    width: 220px;
+    height: 220px;
+    object-fit: cover;
+    border-radius: 12px;
+}
+
+.galleri-kort p {
+    margin-top: 8px;
+    font-weight: 600;
+}
+
+
+
+
+
